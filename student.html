@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Evaluation</title>
+    <link rel="stylesheet" href="student/student.css">
+</head>
+<body>
+    <div class="evaluation-container">
+        <h2>Evaluate Teacher</h2>
+        <form id="evaluationForm">
+            <label for="teacherSelect">Select Teacher:</label>
+            <select id="teacherSelect" name="teacherSelect">
+                <option value="teacher1">Teacher 1</option>
+                <option value="teacher2">Teacher 2</option>
+            </select>
+
+            <div class="evaluation-item">
+                <label for="item1">1. Give an activity that is effective in learning:</label>
+                <div>
+                    <input type="radio" id="item1_1" name="item1" value="1">
+                    <label for="item1_1">1 - Unsatisfactory</label>
+
+                    <input type="radio" id="item1_2" name="item1" value="2">
+                    <label for="item1_2">2 - Fair</label>
+
+                    <input type="radio" id="item1_3" name="item1" value="3">
+                    <label for="item1_3">3 - Good</label>
+
+                    <input type="radio" id="item1_4" name="item1" value="4">
+                    <label for="item1_4">4 - Very Good</label>
+
+                    <input type="radio" id="item1_5" name="item1" value="5">
+                    <label for="item1_5">5 - Excellent</label>
+                </div>
+            </div>
+
+            <div class="evaluation-item">
+                <label for="item2">2. Communication skills:</label>
+                <div>
+                    <input type="radio" id="item2_1" name="item2" value="1">
+                    <label for="item2_1">1 - Unsatisfactory</label>
+
+                    <input type="radio" id="item2_2" name="item2" value="2">
+                    <label for="item2_2">2 - Fair</label>
+
+                    <input type="radio" id="item2_3" name="item2" value="3">
+                    <label for="item2_3">3 - Good</label>
+
+                    <input type="radio" id="item2_4" name="item2" value="4">
+                    <label for="item2_4">4 - Very Good</label>
+
+                    <input type="radio" id="item2_5" name="item2" value="5">
+                    <label for="item2_5">5 - Excellent</label>
+                </div>
+            </div>
+
+            <div class="evaluation-item">
+                <label for="item3">3. Clarity and organization of teaching materials:</label>
+                <div>
+                    <input type="radio" id="item3_1" name="item3" value="1">
+                    <label for="item3_1">1 - Unsatisfactory</label>
+
+                    <input type="radio" id="item3_2" name="item3" value="2">
+                    <label for="item3_2">2 - Fair</label>
+
+                    <input type="radio" id="item3_3" name="item3" value="3">
+                    <label for="item3_3">3 - Good</label>
+
+                    <input type="radio" id="item3_4" name="item3" value="4">
+                    <label for="item3_4">4 - Very Good</label>
+
+                    <input type="radio" id="item3_5" name="item3" value="5">
+                    <label for="item3_5">5 - Excellent</label>
+                </div>
+            </div>
+
+            <div class="evaluation-item">
+                <label for="item4">4. Availability and responsiveness outside class:</label>
+                <div>
+                    <input type="radio" id="item4_1" name="item4" value="1">
+                    <label for="item4_1">1 - Unsatisfactory</label>
+
+                    <input type="radio" id="item4_2" name="item4" value="2">
+                    <label for="item4_2">2 - Fair</label>
+
+                    <input type="radio" id="item4_3" name="item4" value="3">
+                    <label for="item4_3">3 - Good</label>
+
+                    <input type="radio" id="item4_4" name="item4" value="4">
+                    <label for="item4_4">4 - Very Good</label>
+
+                    <input type="radio" id="item4_5" name="item4" value="5">
+                    <label for="item4_5">5 - Excellent</label>
+                </div>
+            </div>
+
+            <div class="evaluation-item">
+                <label for="item5">5. Respect and fairness towards students:</label>
+                <div>
+                    <input type="radio" id="item5_1" name="item5" value="1">
+                    <label for="item5_1">1 - Unsatisfactory</label>
+
+                    <input type="radio" id="item5_2" name="item5" value="2">
+                    <label for="item5_2">2 - Fair</label>
+
+                    <input type="radio" id="item5_3" name="item5" value="3">
+                    <label for="item5_3">3 - Good</label>
+
+                    <input type="radio" id="item5_4" name="item5" value="4">
+                    <label for="item5_4">4 - Very Good</label>
+
+                    <input type="radio" id="item5_5" name="item5" value="5">
+                    <label for="item5_5">5 - Excellent</label>
+                </div>
+            </div>
+
+            <button type="submit">Submit Evaluation</button>
+        </form>
+        <p id="evaluationMessage"></p>
+    </div>
+
+    <script src="student/student.js"></script>
+</body>
+</html>
